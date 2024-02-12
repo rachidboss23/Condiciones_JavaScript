@@ -1,7 +1,7 @@
 let span = document.querySelector('span')
-let btnVerificar = document.getElementById('btn-verificar');
+let botonVerificar = document.getElementById('botonVerificar');
 
-btnVerificar.addEventListener('click',function(){
+botonVerificar.addEventListener('click',function(){
     let a = Number(document.getElementById('input1').value);
     let b = Number(document.getElementById('input2').value);
     let c = Number(document.getElementById('input3').value);
@@ -16,3 +16,10 @@ btnVerificar.addEventListener('click',function(){
     }
 })
 
+botonVolver.addEventListener('click',function(){
+    window.location.href = 'index.html'
+})
+
+botonSiguiente.addEventListener('click',function(){
+    window.location.href = 'index3.html'
+})

@@ -12,3 +12,6 @@ img.addEventListener('click', function(){
     }
 })
 
+boton.addEventListener('click',function(){
+    window.location.href = 'index2.html'
+})
